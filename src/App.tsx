@@ -39,6 +39,8 @@ import {
   SkillCategory, 
   EducationItem 
 } from "./types";
+import portraitImage from "./assets/images/ChatGPT Image 27 Αυγ 2025, 10_45_26 πμ (1).PNG";
+import figure01Image from "./assets/images/iStock-1218459794-scaled.jpg";
 
 const cvPdfUrl = new URL("./CV Sofia Gounaki.pdf", import.meta.url).href;
 
@@ -442,7 +444,7 @@ export default function App() {
               
               {/* SHARP GENERATED PORTRAIT AS DETAILED IN SKILL */}
               <img 
-                src="/src/assets/images/ChatGPT Image 27 Αυγ 2025, 10_45_26 πμ (1).PNG" 
+                src={portraitImage}
                 alt="Sofia Gounaki - M.Sc. Forensic Science & Molecular Biology Graduate"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -570,7 +572,7 @@ export default function App() {
             
             <div className="lg:col-span-6 relative group overflow-hidden rounded-sm border border-slate-100 shadow-md">
               <img 
-                src="/src/assets/images/iStock-1218459794-scaled.jpg" 
+                src={figure01Image}
                 alt="CTC Fluorescence Microscopy image preview"
                 className="w-full h-auto aspect-[16/9] object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
