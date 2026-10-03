@@ -68,7 +68,7 @@ const LABS: LabExperience[] = [
     period: "August 2026 - Present",
     name: "MSc Thesis Researcher — Molecular Precision Medicine",
     institution: "DEPARTMENT OF MEDICAL SCIENCES · UPPSALA UNIVERSITY · SCILIFELAB",
-    description: "Research under the supervision of Maria Globisch and Nathan Zivi within the Jessica Nordlund research group. Characterizing transcription factor DNA-binding profiles in acute lymphoblastic leukemia (ALL) using mammalian-optimized DNA Affinity Purification Sequencing (DAP-seq). Analyzing next-generation sequencing data and interpreting transcription factor binding profiles and their association with gene regulation.",
+    description: "Characterizing transcription factor DNA-binding profiles in acute lymphoblastic leukemia (ALL) using mammalian-optimized DNA Affinity Purification Sequencing (DAP-seq). Analyzing next-generation sequencing data and interpreting transcription factor binding profiles and their association with gene regulation.",
     techniques: ["DAP-seq", "DNA/RNA Extraction", "Leukemic Cell Culture", "Chemotherapy Treatment", "Western Blotting", "Immunofluorescence / Immunocytochemistry", "Fluorescence Microscopy", "Next-Generation Sequencing Analysis"]
   },
   {
@@ -76,7 +76,7 @@ const LABS: LabExperience[] = [
     period: "July - August 2026",
     name: "Laboratory Intern — Analytical Laboratory",
     institution: "MUNICIPAL WATER AND SEWERAGE COMPANY OF RETHYMNO (DEYAR) · GREECE",
-    description: "Laboratory work under the supervision of Biologist Xrysoula Vogiatzi. Gained practical experience in regulated workflows, chemical and microbiological analysis of drinking water and wastewater, and analytical data management in an ISO/IEC 17025:2017-accredited laboratory. Independently developed a comprehensive technical report on drinking-water sampling strategy and environmental monitoring, strengthening scientific-writing skills.",
+    description: "Practical experience in regulated workflows, chemical and microbiological analysis of drinking water and wastewater, and analytical data management in an ISO/IEC 17025:2017-accredited laboratory. Independently developed a comprehensive technical report on drinking-water sampling strategy and environmental monitoring, strengthening scientific-writing skills.",
     techniques: ["Chemical Analysis", "Microbiological Analysis", "Drinking Water & Wastewater", "Analytical Data Management", "ISO/IEC 17025:2017", "Water Sampling", "Environmental Monitoring", "Technical Report Writing"]
   },
   {
@@ -579,7 +579,7 @@ export default function App() {
         <section id="research" className="scroll-mt-24 space-y-12">
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
-            <div className="lg:col-span-8 space-y-2">
+            <div className="lg:col-span-12 space-y-2">
               <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                 § 03 — RESEARCH
               </div>
@@ -621,7 +621,6 @@ export default function App() {
                 Fig. 01 · Visualization
               </div>
               <div className="absolute bottom-3 inset-x-3 bg-slate-950/80 backdrop-blur-sm p-3 text-white text-xs border border-white/10 rounded-sm">
-                <span className="font-semibold text-violet-500 block mb-0.5 uppercase tracking-wider text-[10px]">Fluorescence Micrograph</span>
                 Antibody-antigen receptor interactions on isolated circulating tumor cells molecules.
               </div>
             </div>
@@ -824,11 +823,6 @@ export default function App() {
                 A four-year <span className="font-serif italic text-violet-700">research</span> journey.
               </h2>
             </div>
-            <div className="lg:col-span-4">
-              <p className="text-sm text-slate-500 font-sans leading-relaxed">
-                From early molecular diagnostics to peer-reviewed oncology research in Greece, and the subsequent path shift toward advanced Forensic genetics at Uppsala.
-              </p>
-            </div>
           </div>
 
           {/* DYNAMIC VERTICAL TIMELINE LAYOUT */}
@@ -907,9 +901,6 @@ export default function App() {
                   <div className="flex items-center justify-between border-b border-slate-200 pb-3">
                     <span className="text-[10px] font-mono uppercase tracking-widest font-black text-violet-700">
                       Category {cat.number}
-                    </span>
-                    <span className="text-xs font-mono text-slate-400">
-                      {cat.skills.length} parameters
                     </span>
                   </div>
                   
@@ -1343,7 +1334,7 @@ export default function App() {
             <span className="font-serif text-2xl tracking-tight font-bold text-white block">S. Gounaki</span>
             <p className="text-xs text-slate-400 uppercase tracking-widest leading-loose">
               Forensic Science · Molecular Biology<br />
-              Academic & Diagnostic Laboratory Practice
+              & Precision Medicine
             </p>
             <p className="text-xs text-slate-505 max-w-md font-sans leading-relaxed text-slate-400">
               Sofia's research portfolio showcases her academic education, laboratory skills, scientific publications list, and ongoing postgraduate progression.
