@@ -58,32 +58,47 @@ const INTERESTS: ResearchInterest[] = [
   { id: "i-2", num: "02", name: "Precision Oncology" },
   { id: "i-3", num: "03", name: "Circulating Tumor Cells" },
   { id: "i-4", num: "04", name: "Tumor Biomarkers" },
-  { id: "i-5", num: "05", name: "Molecular Diagnostics" },
-  { id: "i-6", num: "06", name: "Forensic Genetics" },
-  { id: "i-7", num: "07", name: "Bioinformatics" }
+  { id: "i-5", num: "05", name: "Molecular Precision Medicine" },
+  { id: "i-6", num: "06", name: "Bioinformatics" }
 ];
 
 const LABS: LabExperience[] = [
   {
     id: "lab-1",
-    period: "2023 - 2024",
-    name: "Translational Oncology Laboratory",
-    institution: "UNIVERSITY OF CRETE",
-    description: "Research project investigating TROP2 expression in primary tumors, metastatic lesions, and circulating tumor cells (CTCs) in patients with triple-negative breast cancer. Leveraged advanced cell culture models to examine cellular proliferation and biomarker co-expression.",
-    techniques: ["Cell Culture", "Immunofluorescence", "Fluorescence Microscopy"]
+    period: "August 2026 - Present",
+    name: "MSc Thesis Researcher — Molecular Precision Medicine",
+    institution: "DEPARTMENT OF MEDICAL SCIENCES · UPPSALA UNIVERSITY · SCILIFELAB",
+    description: "Research under the supervision of Maria Globisch and Nathan Zivi within the Jessica Nordlund research group. Characterizing transcription factor DNA-binding profiles in acute lymphoblastic leukemia (ALL) using mammalian-optimized DNA Affinity Purification Sequencing (DAP-seq). Analyzing next-generation sequencing data and interpreting transcription factor binding profiles and their association with gene regulation.",
+    techniques: ["DAP-seq", "DNA/RNA Extraction", "Leukemic Cell Culture", "Chemotherapy Treatment", "Western Blotting", "Immunofluorescence / Immunocytochemistry", "Fluorescence Microscopy", "Next-Generation Sequencing Analysis"]
   },
   {
     id: "lab-2",
-    period: "2024",
-    name: "Anatomical Pathology Laboratory",
+    period: "July - August 2026",
+    name: "Laboratory Intern — Analytical Laboratory",
+    institution: "MUNICIPAL WATER AND SEWERAGE COMPANY OF RETHYMNO (DEYAR) · GREECE",
+    description: "Laboratory work under the supervision of Biologist Xrysoula Vogiatzi. Gained practical experience in regulated workflows, chemical and microbiological analysis of drinking water and wastewater, and analytical data management in an ISO/IEC 17025:2017-accredited laboratory. Independently developed a comprehensive technical report on drinking-water sampling strategy and environmental monitoring, strengthening scientific-writing skills.",
+    techniques: ["Chemical Analysis", "Microbiological Analysis", "Drinking Water & Wastewater", "Analytical Data Management", "ISO/IEC 17025:2017", "Water Sampling", "Environmental Monitoring", "Technical Report Writing"]
+  },
+  {
+    id: "lab-3",
+    period: "September 2023 - June 2024",
+    name: "BSc Thesis Researcher — Laboratory of Anatomical Pathology",
     institution: "UNIVERSITY OF CRETE",
     description: "Conducted rigorous histopathological preparations and tissue assessments. Investigated tumor microenvironments, specific biomarker expression and tissue architectures across various clinical patient samples.",
     techniques: ["Histopathology", "Biomarker Analysis", "Sample Preparation", "Tissue Sectioning"]
   },
   {
-    id: "lab-3",
-    period: "2022",
-    name: "Special Parasitology and Zoonoses Laboratory",
+    id: "lab-4",
+    period: "August 2023 - June 2024",
+    name: "BSc Thesis Researcher — Laboratory of Translational Oncology",
+    institution: "UNIVERSITY OF CRETE",
+    description: "Research project investigating TROP2 expression in primary tumors, metastatic lesions, and circulating tumor cells (CTCs) in patients with triple-negative breast cancer. Leveraged advanced cell culture models to examine cellular proliferation and biomarker co-expression.",
+    techniques: ["Cell Culture", "Immunofluorescence", "Fluorescence Microscopy"]
+  },
+  {
+    id: "lab-5",
+    period: "July 2022",
+    name: "Special Parasitology, Zoonoses / Geographical Medicine Laboratory Units",
     institution: "UNIVERSITY OF CRETE",
     description: "Engaged in hands-on clinical and microbiological diagnostics for zoonotic infections. Specialized in testing pathogens, processing human blood/serum arrays, and using classic PCR molecular detection setups.",
     techniques: ["Real-Time PCR", "Microbiology", "Water and Food Hygiene Testing", "Serological Samples"]
@@ -100,7 +115,7 @@ const PUBLICATIONS: Publication[] = [
     abstract: "Investigation of clinically relevant biomarkers in circulating tumor cells and their potential implications for precision oncology in triple-negative breast cancer.",
     detailAbstract: "Triple-negative breast cancer (TNBC) remains one of the most aggressive oncology subtypes, lacking targeted hormone therapy receptors. Circulating Tumor Cells (CTCs) isolated from clinical cohorts represent a powerful real-time liquid biopsy parameter. This study assesses the co-expression profiles of TROP2 and PD-L1 on CTCs from patients undergoing systemic chemotherapy. By examining these liquid biomarkers, the research highlights key correlations with metastatic potential, systemic therapeutic resistance, and patient overall survival (OS). The findings support stratified clinical evaluation of anti-TROP2 antibody-drug conjugates (ADCs) like Sacituzumab Govitecan alongside anti-PD-L1 immune checkpoint inhibitors for metastatic TNBC regimens.",
     tags: ["TROP2", "PD-L1", "CTCs", "TNBC", "Precision Oncology"],
-    url: "https://www.annalsofoncology.org/article/S0923-7534(25)X8658"
+    url: "https://www.annalsofoncology.org/article/S0923-7534(25)01578-9/fulltext"
   },
   {
     id: "pub-2",
@@ -111,7 +126,7 @@ const PUBLICATIONS: Publication[] = [
     abstract: "Comparative analysis of TROP2 expression across tumor tissue and circulating tumor cells in triple-negative breast cancer cohorts.",
     detailAbstract: "While TROP2 antigen expression is highly documented in solid primary tumor tissues, spatial and temporal heterogeneity across Circulating Tumor Cells (CTCs) remains under-characterized. In this study, we ran side-by-side immunohistochemistry analysis on primary tumor tissues and concurrent immunofluorescence analysis on isolated blood CTCs. The statistical correlation demonstrates that while primary tumors exhibit generalized high TROP2 expression (87%), circulating cells show dynamic variations in expression levels linked to epithelial-mesenchymal transition (EMT) programs. This divergence underscores the necessity of dynamic liquid biopsies to guide therapeutic interventions targeting the TROP2 pathway.",
     tags: ["TROP2", "Tumor Tissue", "CTCs", "Biomarker", "TNBC"],
-    url: "https://aacrjournals.org/clincancerres/article/31/2/P4-05-27"
+    url: "https://aacrjournals.org/clincancerres/article/31/12_Supplement/P4-05-27/753582/Abstract-P4-05-27-Comparative-analysis-of-TROP2"
   }
 ];
 
@@ -145,6 +160,18 @@ const TIMELINE: TimelineMilestone[] = [
     year: "2025",
     title: "MSc Forensic Science — Uppsala University",
     description: "Re-located to Uppsala, Sweden to commence advanced postgraduate research in Forensic Science, specializing in DNA typing, genomics, and analytical investigation."
+  },
+  {
+    id: "t-6",
+    year: "2026",
+    title: "Analytical Laboratory",
+    description: "Laboratory internship at DEYAR in July–August 2026, gaining experience in chemical and microbiological analysis of drinking water and wastewater, accredited laboratory workflows, and environmental monitoring."
+  },
+  {
+    id: "t-7",
+    year: "2026",
+    title: "Molecular Precision Medicine",
+    description: "Began MSc thesis research in August 2026 with Uppsala University's Molecular Precision Medicine Group at SciLifeLab, characterizing transcription factor DNA-binding profiles in acute lymphoblastic leukemia using DAP-seq."
   }
 ];
 
@@ -251,6 +278,18 @@ export default function App() {
     e.preventDefault();
     if (!formName || !formEmail || !formMessage) return;
 
+    const recipientEmail = "sofiagounaki12345@gmail.com";
+    const emailSubject = encodeURIComponent(formSubject || `Portfolio inquiry from ${formName}`);
+    const emailBody = encodeURIComponent(
+      [
+        `Name: ${formName}`,
+        `Email: ${formEmail}`,
+        ``,
+        `Message:`,
+        formMessage,
+      ].join("\n")
+    );
+
     // Trigger encryption timeline
     setSubmitStatus("encrypting");
     setEncryptionProgress(0);
@@ -274,6 +313,10 @@ export default function App() {
             const updated = [newMessage, ...submittedMessages];
             setSubmittedMessages(updated);
             localStorage.setItem("sofia_messages", JSON.stringify(updated));
+
+            if (typeof window !== "undefined") {
+              window.location.href = `mailto:${recipientEmail}?subject=${emailSubject}&body=${emailBody}`;
+            }
 
             setSubmitStatus("confirmed");
             setFormName("");
@@ -312,12 +355,12 @@ export default function App() {
   };
 
   return (
-    <div className="bg-white min-h-screen text-slate-900 selection:bg-blue-100 selection:text-blue-900 relative">
+    <div className="bg-[#f3f1ee] min-h-screen text-slate-900 selection:bg-violet-200 selection:text-violet-950 relative">
       {/* BACKGROUND SUBTLE GRID FOR THE PREMIUM GRAPHIC LOOK */}
-      <div className="absolute inset-0 bg-grid-pattern pointer-events-none opacity-[0.35] z-0" />
+      <div className="absolute inset-0 bg-grid-pattern pointer-events-none opacity-[0.22] z-0" />
       
       {/* FLOATING HEADER */}
-      <header id="header" className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-100 px-6 py-4 transition-all">
+      <header id="header" className="sticky top-0 z-40 bg-[#f7f4f1]/95 backdrop-blur-md border-b border-[#e6d9d1] px-6 py-4 transition-all">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           
           {/* LOGO TITLE */}
@@ -343,12 +386,12 @@ export default function App() {
                 key={link.id}
                 onClick={() => scrollToId(link.id)}
                 className={`text-sm font-medium transition-colors relative py-1 ${
-                  activeSection === link.id ? "text-blue-600 font-semibold" : "text-slate-500 hover:text-slate-900"
+                  activeSection === link.id ? "text-violet-800 font-semibold" : "text-slate-500 hover:text-slate-900"
                 }`}
               >
                 {link.label}
                 {activeSection === link.id && (
-                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600 rounded-full animate-fade-in" />
+                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-violet-800 rounded-full animate-fade-in" />
                 )}
               </button>
             ))}
@@ -392,29 +435,26 @@ export default function App() {
         <section id="about" className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center pt-4 md:pt-10 scroll-mt-24">
           
           <div className="lg:col-span-7 space-y-6">
-            <div className="flex items-center space-x-2">
-              <span className="h-[1px] w-8 bg-slate-300"></span>
-              <span className="text-xs uppercase tracking-widest font-mono text-slate-400">
-                Portfolio · 2025
-              </span>
+            <div className="flex items-center space-x-2 w-full">
+              <span className="h-px w-full bg-slate-300"></span>
             </div>
 
             <h1 className="font-serif text-5xl md:text-7xl font-light text-slate-900 tracking-tight leading-none">
               Sofia <span className="font-normal italic text-slate-800">Gounaki</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-slate-500 font-serif leading-relaxed italic border-l-2 border-slate-200 pl-4">
+            <p className="text-lg md:text-xl text-slate-500 font-serif leading-relaxed italic border-l-2 border-[#e0d1ca] pl-4">
               M.Sc. Forensic Science Student <span className="text-slate-300 font-sans font-light mx-2">/</span> Molecular Biology Researcher
             </p>
 
             <p className="text-base text-slate-600 leading-relaxed font-sans">
-              Forensic Science Master's student at <strong>Uppsala University</strong> with a background in Biomolecular Science and Biotechnology from the <strong>University of Crete</strong>. Experienced in laboratory research environments in cancer biology, circulating tumor cells, molecular diagnostics, and precision oncology.
+              Forensic Science Master's student at <strong>Uppsala University</strong> with a background in Biomolecular Science and Biotechnology from <strong>University of Crete</strong>. Experienced in laboratory research environments in cancer biology, circulating tumor cells, molecular diagnostics, and precision oncology.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">
               <button
                 onClick={() => scrollToId("research")}
-                className="px-5 py-3 bg-slate-900 text-white font-mono text-xs tracking-wider uppercase rounded-sm hover:bg-slate-800 active:bg-slate-950 flex items-center space-x-2 transition-all"
+                className="px-5 py-3 bg-slate-900 text-white font-mono text-xs tracking-wider uppercase rounded-sm hover:bg-slate-800 active:bg-slate-950 flex items-center space-x-2 transition-all shadow-[0_10px_20px_rgba(15,23,42,0.08)]"
               >
                 <span>View Research</span>
                 <ArrowRight className="w-4 h-4" />
@@ -422,7 +462,7 @@ export default function App() {
               
               <button
                 onClick={handleDownloadCv}
-                className="px-5 py-3 bg-white border border-slate-200 text-slate-700 font-mono text-xs tracking-wider uppercase rounded-sm hover:bg-slate-50 active:bg-slate-100 flex items-center space-x-2 transition-all"
+                className="px-5 py-3 bg-white border border-[#e3d7d0] text-slate-700 font-mono text-xs tracking-wider uppercase rounded-sm hover:bg-slate-50 active:bg-slate-100 flex items-center space-x-2 transition-all"
               >
                 <FileText className="w-4 h-4 text-slate-400" />
                 <span>Download CV</span>
@@ -430,7 +470,7 @@ export default function App() {
 
               <button
                 onClick={() => scrollToId("contact")}
-                className="px-5 py-3 bg-slate-50 border border-slate-100 text-slate-600 font-mono text-xs tracking-wider uppercase rounded-sm hover:bg-slate-100 flex items-center space-x-2 transition-all"
+                className="px-5 py-3 bg-[#f8f5f2] border border-[#e7ddd4] text-slate-600 font-mono text-xs tracking-wider uppercase rounded-sm hover:bg-[#f3efe9] flex items-center space-x-2 transition-all"
               >
                 <Mail className="w-4 h-4 text-slate-400" />
                 <span>Contact</span>
@@ -440,7 +480,7 @@ export default function App() {
 
           {/* HERO PORTRAIT CAROUSEL/IMAGE OVERLAY */}
           <div className="lg:col-span-5 relative">
-            <div className="aspect-[3/4] rounded-lg overflow-hidden border border-slate-100 shadow-xl bg-white relative group">
+            <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#e7d8d0] shadow-[0_16px_34px_rgba(71,58,75,0.07)] bg-white relative group">
               
               {/* SHARP GENERATED PORTRAIT AS DETAILED IN SKILL */}
               <img 
@@ -457,23 +497,23 @@ export default function App() {
               </div>
 
               {/* FLOATING CORNER BADGES */}
-              <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-slate-800 text-[10px] font-mono font-bold tracking-widest px-2.5 py-1 uppercase rounded-full border border-slate-200 shadow-sm flex items-center space-x-1">
-                <Dna className="w-3 h-3 text-blue-600 animate-pulse" />
+              <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-slate-800 text-[10px] font-mono font-bold tracking-widest px-2.5 py-1 uppercase rounded-full border border-[#e7d9d0] shadow-[0_8px_18px_rgba(72,61,76,0.06)] flex items-center space-x-1">
+                <Dna className="w-3 h-3 text-violet-700 animate-pulse" />
                 <span>Active Researcher</span>
               </div>
             </div>
             
             {/* AMBIENT DESIGN ASSETS - GRID LINES EXTENDING BACKWARDS */}
-            <div className="absolute -z-10 -bottom-6 -left-6 w-36 h-36 bg-blue-50/50 rounded-full blur-2xl pointer-events-none" />
+            <div className="absolute -z-10 -bottom-6 -left-6 w-36 h-36 bg-violet-100/40 rounded-full blur-2xl pointer-events-none" />
           </div>
         </section>
 
         {/* ========================================================= */}
         {/* METRICS & METADATA GRID PANEL */}
         {/* ========================================================= */}
-        <section className="bg-slate-50/50 border border-slate-100 rounded-sm p-6 relative">
+        <section className="bg-[#f8f5f2] border border-[#e8ddd4] rounded-sm p-6 relative shadow-[0_3px_12px_rgba(65,52,57,0.03)]">
           <div className="absolute top-0 left-0 bg-slate-900 text-white font-mono text-[9px] uppercase px-2 py-0.5 tracking-widest rounded-r">
-            Academic Ledger
+            Academic Achievements
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 md:gap-4 divide-y-0 lg:divide-x divide-slate-200">
             {METRICS.map((metric, idx) => (
@@ -481,7 +521,7 @@ export default function App() {
                 key={metric.id} 
                 className={`pt-4 lg:pt-0 ${idx > 1 ? "col-span-1" : "col-span-1"} lg:px-4 space-y-2`}
               >
-                <div className="text-[10px] font-mono text-blue-600 font-bold tracking-wider uppercase">
+                <div className="text-[10px] font-mono text-violet-800 font-bold tracking-wider uppercase">
                   {metric.number} · {metric.label}
                 </div>
                 <div className="font-serif text-lg font-bold text-slate-800 tracking-tight leading-snug">
@@ -500,11 +540,11 @@ export default function App() {
         {/* ========================================================= */}
         <section id="about-story" className="scroll-mt-24 space-y-10">
           <div className="space-y-2">
-            <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+            <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
               § 02 — ABOUT
             </div>
             <h2 className="font-serif text-3xl md:text-5xl font-light text-slate-900 tracking-tight leading-tight max-w-4xl">
-              A scientist at the <span className="font-serif italic text-blue-600 select-all">intersection</span> of molecules and human health.
+              A scientist at the <span className="font-serif italic text-violet-700 select-all">intersection</span> of molecules and human health.
             </h2>
           </div>
 
@@ -515,19 +555,19 @@ export default function App() {
               </p>
               
               <p>
-                My academic training combines rigorous laboratory research, molecular diagnostics, and computational analysis. During my undergraduate studies at the University of Crete, I spent extensive time working in translational oncology and pathology laboratories, investigating biomarkers associated with aggressive cancer subtypes, particularly triple-negative breast cancer (TNBC).
+                My academic training combines rigorous laboratory research, molecular diagnostics, and computational analysis. During my undergraduate studies at University of Crete, I spent extensive time working in translational oncology and pathology laboratories, investigating biomarkers associated with aggressive cancer subtypes, particularly triple-negative breast cancer (TNBC).
               </p>
 
-              <blockquote className="border-l-4 border-blue-500 pl-4 py-1 italic bg-blue-50/50 text-slate-800 rounded-r font-serif text-base">
-                "Understanding the genetic and molecular anomalies of disease processes allows us to optimize targeted precision oncology therapies while establishing forensic certainty from forensic biological samples."
+              <blockquote className="border-l-4 border-violet-700 pl-4 py-1 italic bg-violet-100/60 text-slate-800 rounded-r font-serif text-base">
+                "Understanding the genetic and molecular signatures of disease processes allows us to optimize targeted precision oncology therapies."
               </blockquote>
 
               <p>
-                Currently, I am pursuing my Master's degree in Forensic Science at Uppsala University, Swedish medical cluster. This permits me to expand my expertise in modern scientific investigation, forensic genetic analysis, comparative diagnostics, and complex analytical systems.
+                Currently, I am pursuing my Master's degree in Forensic Science at Uppsala University, Sweden.
               </p>
               
               <p>
-                My long-term goal is to contribute to research and innovation at the intersection of biological science and human welfare, bridging diagnostic pathways in human cancer clinics and forensic investigation.
+                My long-term goal is to contribute to research and development at the intersection of biological science and human welfare. Bridging diagnostic pathways in cancer with a specific focus on molecular precision medicine.
               </p>
             </div>
           </div>
@@ -540,16 +580,16 @@ export default function App() {
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
             <div className="lg:col-span-8 space-y-2">
-              <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+              <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                 § 03 — RESEARCH
               </div>
               <h2 className="font-serif text-3xl md:text-5xl font-light text-slate-900 tracking-tight leading-tight">
-                Investigating the <span className="font-serif italic text-blue-600">molecular signatures</span> of disease.
+                Investigating the <span className="font-serif italic text-violet-700">molecular signatures</span> of disease.
               </h2>
             </div>
             <div className="lg:col-span-4">
               <p className="text-sm text-slate-500 font-sans leading-relaxed">
-                My research interests span from translational oncology to forensic genetics, with a particular focus on biomarker discovery and molecular diagnostic methodologies.
+                My research interests center on translational oncology and molecular precision medicine, with a particular focus on biomarker discovery.
               </p>
             </div>
           </div>
@@ -559,7 +599,7 @@ export default function App() {
             {INTERESTS.map(interest => (
               <span 
                 key={interest.id}
-                className="px-4 py-2 bg-slate-50 border border-slate-100 text-slate-700 font-mono text-xs uppercase tracking-wide rounded-sm flex items-center space-x-2 hover:bg-white hover:border-slate-300 hover:shadow-sm hover:text-blue-600 transition-all cursor-default"
+                className="px-4 py-2 bg-slate-50 border border-slate-100 text-slate-700 font-mono text-xs uppercase tracking-wide rounded-sm flex items-center space-x-2 hover:bg-white hover:border-slate-300 hover:shadow-sm hover:text-violet-700 transition-all cursor-default"
               >
                 <span className="text-[10px] font-bold text-slate-300">{interest.num}</span>
                 <span>{interest.name}</span>
@@ -581,7 +621,7 @@ export default function App() {
                 Fig. 01 · Visualization
               </div>
               <div className="absolute bottom-3 inset-x-3 bg-slate-950/80 backdrop-blur-sm p-3 text-white text-xs border border-white/10 rounded-sm">
-                <span className="font-semibold text-blue-400 block mb-0.5 uppercase tracking-wider text-[10px]">Fluorescence Micrograph</span>
+                <span className="font-semibold text-violet-500 block mb-0.5 uppercase tracking-wider text-[10px]">Fluorescence Micrograph</span>
                 Antibody-antigen receptor interactions on isolated circulating tumor cells molecules.
               </div>
             </div>
@@ -595,11 +635,11 @@ export default function App() {
               </p>
               <div className="p-4 bg-slate-50 border border-slate-100 rounded-sm space-y-2">
                 <div className="flex items-center space-x-2 text-xs font-mono font-bold text-slate-700">
-                  <Activity className="w-4 h-4 text-blue-600 animate-pulse" />
+                  <Activity className="w-4 h-4 text-violet-700 animate-pulse" />
                   <span>Targeted Oncogenes Investigated:</span>
                 </div>
                 <div className="flex flex-wrap gap-1.5 pt-1">
-                  {["TROP2", "PD-L1", "EGFR", "HER2", "EMT Biomarkers"].map(m => (
+                  {["TROP2", "PD-L1", "EMT Biomarkers"].map(m => (
                     <span key={m} className="px-2 py-0.5 bg-white border border-slate-200 text-slate-700 font-mono text-[10.5px] rounded">
                       {m}
                     </span>
@@ -610,17 +650,17 @@ export default function App() {
 
           </div>
 
-          {/* THREE DETAILED LAB WORK CARDS DISPLAY */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+          {/* RESEARCH AND LABORATORY EXPERIENCE, NEWEST FIRST */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-4">
             {LABS.map((lab, index) => (
               <div 
                 key={lab.id}
-                className="bg-white border border-slate-200/80 rounded-sm p-6 space-y-5 shadow-sm hover:shadow-md hover:border-blue-350 transition-all flex flex-col justify-between"
+                className="bg-white border border-slate-200/80 rounded-sm p-6 space-y-5 shadow-sm hover:shadow-md hover:border-violet-350 transition-all flex flex-col justify-between"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-mono text-slate-400 font-medium">0{index + 1} / Laboratory</span>
-                    <span className="text-xs font-mono font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
+                    <span className="text-xs font-mono text-slate-400 font-medium">0{index + 1} / Experience</span>
+                    <span className="text-xs font-mono font-semibold text-violet-700 bg-violet-100 px-2 py-0.5 rounded">
                       {lab.period}
                     </span>
                   </div>
@@ -666,11 +706,11 @@ export default function App() {
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
             <div className="lg:col-span-8 space-y-2">
-              <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+              <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                 § 04 — PUBLICATIONS
               </div>
               <h2 className="font-serif text-3xl md:text-5xl font-light text-slate-900 tracking-tight leading-tight">
-                Peer-reviewed <span className="font-serif italic text-blue-600">scientific</span> work.
+                Peer-reviewed <span className="font-serif italic text-violet-700">scientific</span> work.
               </h2>
             </div>
             <div className="lg:col-span-4">
@@ -689,12 +729,12 @@ export default function App() {
               >
                 {/* DEEP GRID DESIGN ELEMENTS INSIDE DARK PANEL */}
                 <div className="absolute inset-0 bg-dot-pattern pointer-events-none opacity-10" />
-                <div className="absolute -left-20 -bottom-20 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute -left-20 -bottom-20 w-80 h-80 bg-violet-700/10 rounded-full blur-3xl pointer-events-none" />
 
                 <div className="lg:col-span-2 space-y-3 relative z-10">
-                  <span className="font-serif italic text-blue-400 text-6xl block font-medium">0{idx + 1}</span>
+                  <span className="font-serif italic text-violet-500 text-6xl block font-medium">0{idx + 1}</span>
                   <div className="space-y-1">
-                    <span className="text-[11px] tracking-widest font-mono text-blue-400 font-bold block uppercase">
+                    <span className="text-[11px] tracking-widest font-mono text-violet-500 font-bold block uppercase">
                       {pub.journal}
                     </span>
                     <span className="text-xs font-mono text-slate-400 block tracking-wide">
@@ -755,13 +795,13 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-center justify-between p-4 bg-slate-50 border border-slate-100 rounded-sm space-y-3 md:space-y-0 text-xs">
             <div className="flex items-center space-x-2 text-slate-500 font-mono">
               <span className="font-bold text-slate-800">ORCID ID:</span>
-              <span className="select-all bg-white py-0.5 px-2 rounded border border-slate-100 font-bold text-blue-600">0009-0007-1670-0879</span>
+              <span className="select-all bg-white py-0.5 px-2 rounded border border-slate-100 font-bold text-violet-700">0009-0007-1670-0879</span>
             </div>
             <a 
               href="https://orcid.org/0009-0007-1670-0879" 
               target="_blank" 
               rel="noreferrer" 
-              className="text-slate-700 hover:text-blue-600 font-mono flex items-center space-x-1.5 transition-colors font-semibold"
+              className="text-slate-700 hover:text-violet-700 font-mono flex items-center space-x-1.5 transition-colors font-semibold"
             >
               <span>View full peer-reviewed record on ORCID</span>
               <ExternalLink className="w-3.5 h-3.5" />
@@ -777,11 +817,11 @@ export default function App() {
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
             <div className="lg:col-span-8 space-y-2">
-              <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+              <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                 § 05 — Trajectory
               </div>
               <h2 className="font-serif text-3xl md:text-5xl font-light text-slate-900 tracking-tight leading-tight">
-                A four-year <span className="font-serif italic text-blue-600">research</span> journey.
+                A four-year <span className="font-serif italic text-violet-700">research</span> journey.
               </h2>
             </div>
             <div className="lg:col-span-4">
@@ -805,18 +845,18 @@ export default function App() {
                 
                 {/* Year display left block */}
                 <div className="hidden md:block md:col-span-2 text-right pt-1.5">
-                  <span className="font-mono text-lg font-bold text-slate-400 group-hover:text-blue-600 transition-colors">
+                  <span className="font-mono text-lg font-bold text-slate-400 group-hover:text-violet-700 transition-colors">
                     {step.year}
                   </span>
                 </div>
 
                 {/* Timeline node marker */}
-                <div className="absolute left-[-2.5px] md:left-[21.5px] top-2 z-10 w-3 h-3 bg-white border-[2.5px] border-slate-350 group-hover:border-blue-600 rounded-sm transition-all group-hover:scale-125" />
+                <div className="absolute left-[-2.5px] md:left-[21.5px] top-2 z-10 w-3 h-3 bg-white border-[2.5px] border-slate-350 group-hover:border-violet-700 rounded-sm transition-all group-hover:scale-125" />
 
                 {/* Content body block right */}
                 <div className="col-span-1 md:col-span-10 space-y-2 pl-4 md:pl-2">
                   <div className="flex items-center space-x-3 md:hidden">
-                    <span className="font-mono text-sm font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
+                    <span className="font-mono text-sm font-bold text-violet-700 bg-violet-100 px-2 py-0.5 rounded">
                       {step.year}
                     </span>
                   </div>
@@ -842,16 +882,16 @@ export default function App() {
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
             <div className="lg:col-span-8 space-y-2">
-              <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+              <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                 § 06 — SKILLS
               </div>
               <h2 className="font-serif text-3xl md:text-5xl font-light text-slate-900 tracking-tight leading-tight">
-                The technical <span className="font-serif italic text-blue-600">toolkit</span>.
+                The technical <span className="font-serif italic text-violet-700">toolkit</span>.
               </h2>
             </div>
             <div className="lg:col-span-4">
               <p className="text-sm text-slate-500 font-sans leading-relaxed">
-                A combination of advanced wet-lab molecular biochemistry, computational data structures, and peer scientific synthesis built across multiple laboratory clusters.
+                A combination of wet-lab molecular biology, computational data analysis and peer scientific synthesis.
               </p>
             </div>
           </div>
@@ -861,11 +901,11 @@ export default function App() {
             {SKILL_CATEGORIES.map(cat => (
               <div 
                 key={cat.id}
-                className="bg-slate-50/50 border border-slate-100 rounded-sm p-6 space-y-6 flex flex-col justify-between"
+                className="bg-[#f9f5f1] border border-[#e7ddd4] rounded-sm p-6 space-y-6 flex flex-col justify-between shadow-[0_1px_6px_rgba(68,52,82,0.025)]"
               >
                 <div className="space-y-4">
                   <div className="flex items-center justify-between border-b border-slate-200 pb-3">
-                    <span className="text-[10px] font-mono uppercase tracking-widest font-black text-blue-600">
+                    <span className="text-[10px] font-mono uppercase tracking-widest font-black text-violet-700">
                       Category {cat.number}
                     </span>
                     <span className="text-xs font-mono text-slate-400">
@@ -880,7 +920,7 @@ export default function App() {
                   <div className="space-y-2">
                     {cat.skills.map(val => (
                       <div key={val} className="flex items-center space-x-2 text-xs text-slate-600 font-sans py-1 hover:text-slate-900 transition-colors">
-                        <span className="w-1.5 h-1.5 bg-blue-500 rounded-full shrink-0" />
+                        <span className="w-1.5 h-1.5 bg-violet-700 rounded-full shrink-0" />
                         <span>{val}</span>
                       </div>
                     ))}
@@ -907,11 +947,11 @@ export default function App() {
             {/* EDUCATION CARDS BOXES LEFT */}
             <div className="lg:col-span-7 space-y-10">
               <div className="space-y-2">
-                <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+                <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                   § 07 — EDUCATION
                 </div>
                 <h2 className="font-serif text-3xl md:text-5xl font-light text-slate-900 tracking-tight leading-tight">
-                  Academic <span className="font-serif italic text-blue-600">formation</span>.
+                  Academic <span className="font-serif italic text-violet-700">achievements</span>.
                 </h2>
               </div>
 
@@ -919,10 +959,10 @@ export default function App() {
                 {EDUCATION.map(item => (
                   <div 
                     key={item.id}
-                    className="group border-l-2 border-slate-200 pl-6 space-y-3 relative hover:border-blue-500 transition-colors"
+                    className="group border-l-2 border-slate-200 pl-6 space-y-3 relative hover:border-violet-700 transition-colors"
                   >
                     <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                      <span className="text-xs font-mono font-semibold text-blue-600 tracking-wide bg-blue-50 px-2 py-0.5 rounded">
+                      <span className="text-xs font-mono font-semibold text-violet-700 tracking-wide bg-violet-100 px-2 py-0.5 rounded">
                         {item.period}
                       </span>
                       <span className="text-xs font-mono text-slate-400 flex items-center space-x-1">
@@ -952,34 +992,34 @@ export default function App() {
               
               {/* § 08 — ATHLETIC RECOGNITION */}
               <div className="space-y-3">
-                <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+                <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                   § 08 — ACHIEVEMENT
                 </div>
                 
                 <div 
                   onClick={() => setIsJiuJitsuOpen(true)}
-                  className="bg-slate-950 text-white p-6 rounded-sm border border-slate-900 shadow-lg relative overflow-hidden group cursor-pointer hover:border-blue-600 transition-all"
+                  className="bg-slate-950 text-white p-6 rounded-sm border border-slate-900 shadow-lg relative overflow-hidden group cursor-pointer hover:border-violet-700 transition-all"
                 >
                   <div className="absolute inset-0 bg-dot-pattern opacity-10 pointer-events-none" />
                   <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-                    <Award className="w-24 h-24 text-blue-500" />
+                    <Award className="w-24 h-24 text-violet-600" />
                   </div>
 
                   <div className="space-y-4 relative z-10">
-                    <div className="flex items-center space-x-2 text-blue-400 font-mono text-[10px] tracking-widest uppercase font-bold">
+                    <div className="flex items-center space-x-2 text-violet-500 font-mono text-[10px] tracking-widest uppercase font-bold">
                       <Flame className="w-4 h-4 text-orange-500 animate-pulse" />
                       <span>Distinction Award</span>
                     </div>
 
                     <h3 className="font-serif text-xl font-medium text-white leading-snug">
-                      Athletic Scholarship — Greek Jiu-Jitsu Federation & Ministry of Sports
+                      Athletic Scholarship — Greek Jiu-Jitsu Federation / Ministry of Sports
                     </h3>
 
                     <p className="text-xs text-slate-400 leading-relaxed font-sans">
                       A high honor recognizing intense discipline, competitive athletic commitment, and outstanding state ranks alongside intensive scientific work. Click to review accolades.
                     </p>
 
-                    <div className="text-[10px] font-mono text-blue-400 hover:text-blue-300 flex items-center space-x-1.5 pt-2 hover:underline">
+                    <div className="text-[10px] font-mono text-violet-500 hover:text-violet-300 flex items-center space-x-1.5 pt-2 hover:underline">
                       <span>Explore martial arts trajectory & stats</span>
                       <ChevronRight className="w-3.5 h-3.5" />
                     </div>
@@ -989,7 +1029,7 @@ export default function App() {
 
               {/* § 09 — PROFESSIONAL DEVELOPMENT */}
               <div className="space-y-4">
-                <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+                <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                   § 09 — PROFESSIONAL DEVELOPMENT
                 </div>
 
@@ -1000,7 +1040,7 @@ export default function App() {
                     "Food Safety & Quality Standards (ISO 22000 / ISO 9001)"
                   ].map((cert, index) => (
                     <div key={index} className="p-4 flex items-center space-x-3.5 hover:bg-slate-50 transition-colors">
-                      <div className="w-7 h-7 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 font-mono text-xs font-bold shrink-0">
+                      <div className="w-7 h-7 bg-violet-100 rounded-full flex items-center justify-center text-violet-700 font-mono text-xs font-bold shrink-0">
                         {index + 1}
                       </div>
                       <div className="font-semibold text-slate-800">{cert}</div>
@@ -1024,16 +1064,16 @@ export default function App() {
             {/* INVITATION & SPECIFIC DATA LEFT */}
             <div className="lg:col-span-5 space-y-8">
               <div className="space-y-2">
-                <div className="text-xs font-mono font-black text-blue-600 tracking-widest uppercase">
+                <div className="text-xs font-mono font-black text-violet-700 tracking-widest uppercase">
                   § 10 — CONTACT
                 </div>
                 <h2 className="font-serif text-4xl md:text-5xl font-light text-slate-900 tracking-tight leading-none">
-                  Let's <span className="font-serif italic text-blue-600">collaborate</span>.
+                  Let's <span className="font-serif italic text-violet-700">collaborate</span>.
                 </h2>
               </div>
 
               <p className="text-slate-600 text-base leading-relaxed font-sans">
-                Open to research collaborations, molecular pharmacology PhD opportunities, or inquiries about forensic biomarker analysis pipelines.
+                Open to research collaborations and PhD opportunities.
               </p>
 
               {/* COORDS META WITH ICONS */}
@@ -1041,7 +1081,7 @@ export default function App() {
                 
                 <div className="flex items-center space-x-3.5 text-sm">
                   <div className="w-9 h-9 bg-slate-50 border border-slate-100 rounded flex items-center justify-center text-slate-400 shrink-0">
-                    <MapPin className="w-4 h-4 text-blue-600" />
+                    <MapPin className="w-4 h-4 text-violet-700" />
                   </div>
                   <div>
                     <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block">Location</span>
@@ -1051,19 +1091,22 @@ export default function App() {
 
                 <div className="flex items-center space-x-3.5 text-sm">
                   <div className="w-9 h-9 bg-slate-50 border border-slate-100 rounded flex items-center justify-center text-slate-400 shrink-0">
-                    <Mail className="w-4 h-4 text-blue-600" />
+                    <Mail className="w-4 h-4 text-violet-700" />
                   </div>
                   <div>
                     <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block">Personal Email</span>
-                    <a href="mailto:sofiagounaki12345@gmail.com" className="text-slate-755 hover:text-blue-600 hover:underline font-bold">
+                    <a href="mailto:sofiagounaki12345@gmail.com" className="block text-slate-755 hover:text-violet-700 hover:underline font-bold">
                       sofiagounaki12345@gmail.com
+                    </a>
+                    <a href="mailto:sofia.founaki.0984@student.uu.se" className="block text-slate-755 hover:text-violet-700 hover:underline font-bold">
+                      sofia.founaki.0984@student.uu.se
                     </a>
                   </div>
                 </div>
 
                 <div className="flex items-center space-x-3.5 text-sm">
                   <div className="w-9 h-9 bg-slate-50 border border-slate-100 rounded flex items-center justify-center text-slate-400 shrink-0">
-                    <Linkedin className="w-4 h-4 text-blue-600" />
+                    <Linkedin className="w-4 h-4 text-violet-700" />
                   </div>
                   <div>
                     <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block">Professional Network</span>
@@ -1071,7 +1114,7 @@ export default function App() {
                       href="https://linkedin.com/in/sofia-gounaki" 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="text-slate-755 hover:text-blue-600 font-semibold"
+                      className="text-slate-755 hover:text-violet-700 font-semibold"
                     >
                       LinkedIn — Sofia Gounaki
                     </a>
@@ -1080,7 +1123,7 @@ export default function App() {
 
                 <div className="flex items-center space-x-3.5 text-sm">
                   <div className="w-9 h-9 bg-slate-50 border border-slate-100 rounded flex items-center justify-center text-slate-400 shrink-0">
-                    <BookOpen className="w-4 h-4 text-blue-600" />
+                    <BookOpen className="w-4 h-4 text-violet-700" />
                   </div>
                   <div>
                     <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block">ORCID Author DB</span>
@@ -1088,7 +1131,7 @@ export default function App() {
                       href="https://orcid.org/0009-0007-1670-0879" 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="text-slate-755 hover:text-blue-600 font-medium"
+                      className="text-slate-755 hover:text-violet-700 font-medium"
                     >
                       ORCID — 0009-0007-1670-0879
                     </a>
@@ -1097,13 +1140,13 @@ export default function App() {
 
                 <div className="flex items-center space-x-3.5 text-sm">
                   <div className="w-9 h-9 bg-slate-50 border border-slate-100 rounded flex items-center justify-center text-slate-400 shrink-0">
-                    <FileText className="w-4 h-4 text-blue-600" />
+                    <FileText className="w-4 h-4 text-violet-700" />
                   </div>
                   <div>
                     <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block">Curriculum Vitae</span>
                     <button 
                       onClick={handleDownloadCv}
-                      className="text-slate-755 font-bold hover:text-blue-600 underline flex items-center space-x-1"
+                      className="text-slate-755 font-bold hover:text-violet-700 underline flex items-center space-x-1"
                     >
                       <span>Download Curriculum Vitae (PDF)</span>
                     </button>
@@ -1123,7 +1166,7 @@ export default function App() {
                     <h3 className="font-serif text-lg text-slate-800 font-bold">Send A Message</h3>
                   </div>
                   <div className="flex items-center space-x-1.5 text-slate-400 font-mono text-[10px]">
-                    <Lock className="w-3.5 h-3.5 text-blue-600" />
+                    <Lock className="w-3.5 h-3.5 text-violet-700" />
                     <span>Secure Connect v1</span>
                   </div>
                 </div>
@@ -1141,7 +1184,7 @@ export default function App() {
                           value={formName}
                           onChange={(e) => setFormName(e.target.value)}
                           placeholder="Your full name"
-                          className="w-full bg-slate-50 border border-slate-200 rounded-sm py-2.5 px-3.5 text-sm focus:outline-none focus:bg-white focus:border-blue-500 transition-colors"
+                          className="w-full bg-slate-50 border border-slate-200 rounded-sm py-2.5 px-3.5 text-sm focus:outline-none focus:bg-white focus:border-violet-700 transition-colors"
                         />
                       </div>
                       <div className="space-y-1.5">
@@ -1154,7 +1197,7 @@ export default function App() {
                           value={formEmail}
                           onChange={(e) => setFormEmail(e.target.value)}
                           placeholder="your.email@gmail.com"
-                          className="w-full bg-slate-50 border border-slate-200 rounded-sm py-2.5 px-3.5 text-sm focus:outline-none focus:bg-white focus:border-blue-500 transition-colors"
+                          className="w-full bg-slate-50 border border-slate-200 rounded-sm py-2.5 px-3.5 text-sm focus:outline-none focus:bg-white focus:border-violet-700 transition-colors"
                         />
                       </div>
                     </div>
@@ -1168,7 +1211,7 @@ export default function App() {
                         value={formSubject}
                         onChange={(e) => setFormSubject(e.target.value)}
                         placeholder="Inquiry focus (e.g. PhD, Research Collaboration)"
-                        className="w-full bg-slate-50 border border-slate-200 rounded-sm py-2.5 px-3.5 text-sm focus:outline-none focus:bg-white focus:border-blue-500 transition-colors"
+                        className="w-full bg-slate-50 border border-slate-200 rounded-sm py-2.5 px-3.5 text-sm focus:outline-none focus:bg-white focus:border-violet-700 transition-colors"
                       />
                     </div>
 
@@ -1182,7 +1225,7 @@ export default function App() {
                         value={formMessage}
                         onChange={(e) => setFormMessage(e.target.value)}
                         placeholder="Draft your message details here..."
-                        className="w-full bg-slate-50 border border-slate-200 rounded-sm py-2.5 px-3.5 text-sm focus:outline-none focus:bg-white focus:border-blue-500 transition-colors resize-none"
+                        className="w-full bg-slate-50 border border-slate-200 rounded-sm py-2.5 px-3.5 text-sm focus:outline-none focus:bg-white focus:border-violet-700 transition-colors resize-none"
                       />
                     </div>
 
@@ -1205,7 +1248,7 @@ export default function App() {
                 {/* VISUAL SHARP SECURE PROGRESS AND TRANSITIONAL SUBMITS */}
                 {submitStatus === "encrypting" && (
                   <div className="py-12 text-center space-y-6 animate-pulse">
-                    <Terminal className="w-12 h-12 text-blue-600 mx-auto" />
+                    <Terminal className="w-12 h-12 text-violet-700 mx-auto" />
                     <div className="space-y-2">
                       <h4 className="font-mono text-xs tracking-wider uppercase font-bold text-slate-700">Encrypting Message Packet...</h4>
                       <p className="text-[11px] font-mono text-slate-400">Applying standard RSA payload block algorithm</p>
@@ -1213,11 +1256,11 @@ export default function App() {
                     
                     <div className="w-full max-w-sm mx-auto bg-slate-100 h-2.5 rounded-sm overflow-hidden border border-slate-200">
                       <div 
-                        className="bg-blue-600 h-full transition-all duration-75"
+                        className="bg-violet-700 h-full transition-all duration-75"
                         style={{ width: `${encryptionProgress}%` }}
                       />
                     </div>
-                    <span className="font-mono text-sm font-bold text-blue-600 block">{encryptionProgress}%</span>
+                    <span className="font-mono text-sm font-bold text-violet-700 block">{encryptionProgress}%</span>
                   </div>
                 )}
 
@@ -1303,12 +1346,12 @@ export default function App() {
               Academic & Diagnostic Laboratory Practice
             </p>
             <p className="text-xs text-slate-505 max-w-md font-sans leading-relaxed text-slate-400">
-              Sofia's research portfolio showcases her academic formation, molecular diagnostics protocols, scientific publications list, and ongoing postgraduate progression.
+              Sofia's research portfolio showcases her academic education, laboratory skills, scientific publications list, and ongoing postgraduate progression.
             </p>
           </div>
 
           <div className="md:col-span-4 space-y-3">
-            <span className="text-[10px] uppercase font-mono tracking-widest text-blue-400 block font-bold">Quick Navigation</span>
+            <span className="text-[10px] uppercase font-mono tracking-widest text-violet-500 block font-bold">Quick Navigation</span>
             <div className="grid grid-cols-2 gap-2 text-xs font-mono">
               <button onClick={() => scrollToId("about")} className="text-left text-slate-400 hover:text-white transition-colors">Start</button>
               <button onClick={() => scrollToId("research")} className="text-left text-slate-400 hover:text-white transition-colors">Research</button>
@@ -1320,7 +1363,7 @@ export default function App() {
           </div>
 
           <div className="md:col-span-3 space-y-3 text-left md:text-right">
-            <span className="text-[10px] uppercase font-mono tracking-widest text-blue-400 block font-bold">Metadata</span>
+            <span className="text-[10px] uppercase font-mono tracking-widest text-violet-500 block font-bold">Metadata</span>
             <p className="text-xs font-mono text-slate-400">
               Local Time: {new Date().toLocaleDateString()}<br />
               Secure Hub Status: Online<br />
@@ -1353,7 +1396,7 @@ export default function App() {
                   <span className="text-[9px] font-mono uppercase tracking-widest text-slate-400 font-bold block">
                     {selectedPaper.journal} · Peer-reviewed EXTRACT
                   </span>
-                  <span className="text-xs font-mono text-blue-600 block font-semibold">
+                  <span className="text-xs font-mono text-violet-700 block font-semibold">
                     DOI: {selectedPaper.doi}
                   </span>
                 </div>
@@ -1399,7 +1442,7 @@ export default function App() {
                       <span>87% (Primary), 62% (Metastatic CTCs)</span>
                     </div>
                     <div className="w-full bg-slate-100 h-2 rounded-sm overflow-hidden border border-slate-200">
-                      <div className="bg-blue-600 h-full rounded-r-sm" style={{ width: "87%" }} />
+                      <div className="bg-violet-700 h-full rounded-r-sm" style={{ width: "87%" }} />
                     </div>
 
                     <div className="flex items-center justify-between text-xs font-mono mt-1">
@@ -1412,8 +1455,8 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="p-4 bg-blue-50/50 border border-blue-100 rounded-sm space-y-2 mt-6">
-                  <h4 className="text-xs font-mono uppercase tracking-wider text-blue-900 font-bold">Therapeutic Value & Impact</h4>
+                <div className="p-4 bg-violet-100/60 border border-violet-100 rounded-sm space-y-2 mt-6">
+                  <h4 className="text-xs font-mono uppercase tracking-wider text-violet-950 font-bold">Therapeutic Value & Impact</h4>
                   <p className="text-xs leading-relaxed text-slate-600">
                     Understanding the co-expression of TROP2 and PD-L1 enables oncologist panels to model combined immunotherapy with anti-TROP2 drug conjugates for metastatic breast carcinoma patient cohorts.
                   </p>
@@ -1462,13 +1505,13 @@ export default function App() {
             {/* Modal CV Head Controller */}
             <div className="bg-slate-950 text-white py-4 px-6 flex items-center justify-between font-mono text-xs">
               <div className="flex items-center space-x-2">
-                <FileText className="w-4 h-4 text-blue-400" />
+                <FileText className="w-4 h-4 text-violet-500" />
                 <span className="font-bold uppercase tracking-wider">Sofia_Gounaki_Curriculum_Vitae.pdf (Simulated Reader)</span>
               </div>
               <div className="flex items-center space-x-4">
                 <button 
                   onClick={handlePrintCV}
-                  className="flex items-center space-x-1 hover:text-blue-300 transition-colors bg-white/10 px-2.5 py-1 rounded"
+                  className="flex items-center space-x-1 hover:text-violet-300 transition-colors bg-white/10 px-2.5 py-1 rounded"
                 >
                   <Printer className="w-3.5 h-3.5" />
                   <span>Print / View PDF</span>
@@ -1648,7 +1691,7 @@ export default function App() {
           <div className="relative w-full max-w-lg bg-white shadow-2xl rounded-sm overflow-hidden z-10 border border-slate-100 p-6 space-y-6 animate-fade-in animate-duration-300">
             
             <div className="flex items-center justify-between border-b border-slate-150 pb-3">
-              <div className="flex items-center space-x-2 text-blue-600 font-mono text-xs uppercase tracking-widest font-black">
+              <div className="flex items-center space-x-2 text-violet-700 font-mono text-xs uppercase tracking-widest font-black">
                 <Flame className="w-4 h-4 text-orange-500" />
                 <span>Martial Arts Distinction Accolade</span>
               </div>
